@@ -45,3 +45,8 @@ Como visto no exemplo do enunciado, assumi que o amount será do tipo int e o ta
 
 
 Endpoint do projeto deployado -> https://values-softplan.herokuapp.com/valueWithTaxes
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"amount":100,"tax":2.2}' \
+  https://values-softplan.herokuapp.com/valueWithTaxes
