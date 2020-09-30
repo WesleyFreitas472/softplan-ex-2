@@ -6,7 +6,7 @@ deploy:
   provider: heroku
   api_key:
     secure: nCMgip8fjahwCcHO8ntQ8MzfvFGpWLb5pzaMprQuwKzrQJpDJBCN6HX8wcSqj6X1NsJt8LjcSzcjxHZudoKI2V59GRO9fzrORh8Bkrj297RZZyUqzvjcVA+bWx6GnXZ3lcWqNJVcGhDs8wayk43mClQRXtvfFklEpLGIagRZC7EIdpHso8hgVXqdQO0sxjtWdF2bcu1bIAK5vHR35zSjBAZUC7SvrPjlYrpXa3yqV6vvUQpP0BQsYpL8MUwWhOhgV0rG+Sg40Zkd8FQ0A0hmteyBHJc6fylnb7Vn+14zWtdpSruR31BN2XG4S1KCpn6r7v5SQsm9sMsJ+wqoeA80VqV1p+NFN8ZHWTbirTBSoB79hdGvWrWhAWNf+YcgrvMxseKsVUyyyhBDukIrlm11bm8tyoKZtMZ9tYGMErniIqJInMzRl7XANLKUXHv144a6J3qBLWc/bubsfap1woAvn3BaTy89H/JwJT/A6k1lrHtqkF+EO0POmvTOUYpaUQnqjgCDhcZjNvcADkJjoTIl3AJxA0/6UFLtSo5Tw3XbyX/7SCA4iQHhGtF0yyygjAU5kqVdDcM15m4DmBcFeO0Gw6fcFNXcZNzzFyCCyJwN4gISBzAn5d+IGz5WLjSVO30k/voCCHrYLoxex+z6Sc/8nmRiM8ImrYwndxOXndtjRpo=
-  app: values-softplan
-  on:
-    repo: wesleyfreitas472/softplan-ex-2
-    branch: master
+notifications:
+  email:
+    on_success: always
+    on_failure: never
